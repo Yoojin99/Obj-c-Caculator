@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Character.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -13,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property UILabel* buttonTextLabel;
 @property NSString* buttonText;
+@property Character* character;
 
 @end
 

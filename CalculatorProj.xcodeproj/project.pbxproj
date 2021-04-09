@@ -19,6 +19,15 @@
 		F174754E261D85DD006526F2 /* ButtonCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F174754D261D85DD006526F2 /* ButtonCollectionViewCell.m */; };
 		F1747557261DA6A1006526F2 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = F1747556261DA6A1006526F2 /* Stack.m */; };
 		F174755B261DAF3B006526F2 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F17474B4261B06A7006526F2 /* Calculator.m */; };
+		F1FEB18626203EF8004D26C5 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEB18526203EF8004D26C5 /* Character.m */; };
+		F1FEB18C26204026004D26C5 /* OperandCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEB18B26204026004D26C5 /* OperandCharacter.m */; };
+		F1FEB19226204086004D26C5 /* NumberCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEB19126204086004D26C5 /* NumberCharacter.m */; };
+		F1FEB19E262040EA004D26C5 /* FunctionCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEB19D262040EA004D26C5 /* FunctionCharacter.m */; };
+		F1FEB1A5262046F5004D26C5 /* ButtonOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEB1A4262046F5004D26C5 /* ButtonOperation.m */; };
+		F1FEB1AB2620470A004D26C5 /* NumberButtonOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEB1AA2620470A004D26C5 /* NumberButtonOperation.m */; };
+		F1FEB1B12620471F004D26C5 /* OperandButtonOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEB1B02620471F004D26C5 /* OperandButtonOperation.m */; };
+		F1FEB1B726204A65004D26C5 /* DeleteButtonOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEB1B626204A65004D26C5 /* DeleteButtonOperation.m */; };
+		F1FEB1BD26204B17004D26C5 /* ClearButtonOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FEB1BC26204B17004D26C5 /* ClearButtonOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +72,24 @@
 		F174754D261D85DD006526F2 /* ButtonCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonCollectionViewCell.m; sourceTree = "<group>"; };
 		F1747555261DA6A1006526F2 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		F1747556261DA6A1006526F2 /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		F1FEB18426203EF8004D26C5 /* Character.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		F1FEB18526203EF8004D26C5 /* Character.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		F1FEB18A26204026004D26C5 /* OperandCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperandCharacter.h; sourceTree = "<group>"; };
+		F1FEB18B26204026004D26C5 /* OperandCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperandCharacter.m; sourceTree = "<group>"; };
+		F1FEB19026204086004D26C5 /* NumberCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberCharacter.h; sourceTree = "<group>"; };
+		F1FEB19126204086004D26C5 /* NumberCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberCharacter.m; sourceTree = "<group>"; };
+		F1FEB19C262040EA004D26C5 /* FunctionCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunctionCharacter.h; sourceTree = "<group>"; };
+		F1FEB19D262040EA004D26C5 /* FunctionCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionCharacter.m; sourceTree = "<group>"; };
+		F1FEB1A3262046F5004D26C5 /* ButtonOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonOperation.h; sourceTree = "<group>"; };
+		F1FEB1A4262046F5004D26C5 /* ButtonOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonOperation.m; sourceTree = "<group>"; };
+		F1FEB1A92620470A004D26C5 /* NumberButtonOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberButtonOperation.h; sourceTree = "<group>"; };
+		F1FEB1AA2620470A004D26C5 /* NumberButtonOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberButtonOperation.m; sourceTree = "<group>"; };
+		F1FEB1AF2620471F004D26C5 /* OperandButtonOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperandButtonOperation.h; sourceTree = "<group>"; };
+		F1FEB1B02620471F004D26C5 /* OperandButtonOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperandButtonOperation.m; sourceTree = "<group>"; };
+		F1FEB1B526204A65004D26C5 /* DeleteButtonOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteButtonOperation.h; sourceTree = "<group>"; };
+		F1FEB1B626204A65004D26C5 /* DeleteButtonOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteButtonOperation.m; sourceTree = "<group>"; };
+		F1FEB1BB26204B17004D26C5 /* ClearButtonOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClearButtonOperation.h; sourceTree = "<group>"; };
+		F1FEB1BC26204B17004D26C5 /* ClearButtonOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClearButtonOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,23 +140,22 @@
 		F174747A261B0688006526F2 /* CalculatorProj */ = {
 			isa = PBXGroup;
 			children = (
+				F1FEB1A2262046CD004D26C5 /* ButtonOperation */,
+				F1FEB18126203D8C004D26C5 /* ViewController */,
+				F1FEB18026203D69004D26C5 /* CollectionViewCell */,
 				F17474B3261B06A7006526F2 /* Calculator.h */,
 				F17474B4261B06A7006526F2 /* Calculator.m */,
 				F174747B261B0688006526F2 /* AppDelegate.h */,
 				F174747C261B0688006526F2 /* AppDelegate.m */,
 				F174747E261B0688006526F2 /* SceneDelegate.h */,
 				F174747F261B0688006526F2 /* SceneDelegate.m */,
-				F1747481261B0688006526F2 /* ViewController.h */,
-				F1747482261B0688006526F2 /* ViewController.m */,
 				F1747484261B0688006526F2 /* Main.storyboard */,
 				F1747487261B068B006526F2 /* Assets.xcassets */,
 				F1747489261B068B006526F2 /* LaunchScreen.storyboard */,
 				F174748C261B068B006526F2 /* Info.plist */,
 				F174748D261B068B006526F2 /* main.m */,
-				F174754C261D85DD006526F2 /* ButtonCollectionViewCell.h */,
-				F174754D261D85DD006526F2 /* ButtonCollectionViewCell.m */,
-				F1747555261DA6A1006526F2 /* Stack.h */,
-				F1747556261DA6A1006526F2 /* Stack.m */,
+				F1FEB18326203DE0004D26C5 /* Character */,
+				F1FEB18226203DAB004D26C5 /* Stack */,
 			);
 			path = CalculatorProj;
 			sourceTree = "<group>";
@@ -150,6 +176,65 @@
 				F17474A4261B068C006526F2 /* Info.plist */,
 			);
 			path = CalculatorProjUITests;
+			sourceTree = "<group>";
+		};
+		F1FEB18026203D69004D26C5 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				F174754C261D85DD006526F2 /* ButtonCollectionViewCell.h */,
+				F174754D261D85DD006526F2 /* ButtonCollectionViewCell.m */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		F1FEB18126203D8C004D26C5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F1747481261B0688006526F2 /* ViewController.h */,
+				F1747482261B0688006526F2 /* ViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F1FEB18226203DAB004D26C5 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				F1747555261DA6A1006526F2 /* Stack.h */,
+				F1747556261DA6A1006526F2 /* Stack.m */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		F1FEB18326203DE0004D26C5 /* Character */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEB18426203EF8004D26C5 /* Character.h */,
+				F1FEB18526203EF8004D26C5 /* Character.m */,
+				F1FEB18A26204026004D26C5 /* OperandCharacter.h */,
+				F1FEB18B26204026004D26C5 /* OperandCharacter.m */,
+				F1FEB19026204086004D26C5 /* NumberCharacter.h */,
+				F1FEB19126204086004D26C5 /* NumberCharacter.m */,
+				F1FEB19C262040EA004D26C5 /* FunctionCharacter.h */,
+				F1FEB19D262040EA004D26C5 /* FunctionCharacter.m */,
+			);
+			path = Character;
+			sourceTree = "<group>";
+		};
+		F1FEB1A2262046CD004D26C5 /* ButtonOperation */ = {
+			isa = PBXGroup;
+			children = (
+				F1FEB1A3262046F5004D26C5 /* ButtonOperation.h */,
+				F1FEB1A4262046F5004D26C5 /* ButtonOperation.m */,
+				F1FEB1A92620470A004D26C5 /* NumberButtonOperation.h */,
+				F1FEB1AA2620470A004D26C5 /* NumberButtonOperation.m */,
+				F1FEB1AF2620471F004D26C5 /* OperandButtonOperation.h */,
+				F1FEB1B02620471F004D26C5 /* OperandButtonOperation.m */,
+				F1FEB1B526204A65004D26C5 /* DeleteButtonOperation.h */,
+				F1FEB1B626204A65004D26C5 /* DeleteButtonOperation.m */,
+				F1FEB1BB26204B17004D26C5 /* ClearButtonOperation.h */,
+				F1FEB1BC26204B17004D26C5 /* ClearButtonOperation.m */,
+			);
+			path = ButtonOperation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,11 +367,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1747557261DA6A1006526F2 /* Stack.m in Sources */,
+				F1FEB1A5262046F5004D26C5 /* ButtonOperation.m in Sources */,
 				F1747483261B0688006526F2 /* ViewController.m in Sources */,
+				F1FEB1B12620471F004D26C5 /* OperandButtonOperation.m in Sources */,
+				F1FEB1AB2620470A004D26C5 /* NumberButtonOperation.m in Sources */,
+				F1FEB1BD26204B17004D26C5 /* ClearButtonOperation.m in Sources */,
+				F1FEB19E262040EA004D26C5 /* FunctionCharacter.m in Sources */,
 				F174747D261B0688006526F2 /* AppDelegate.m in Sources */,
+				F1FEB18626203EF8004D26C5 /* Character.m in Sources */,
+				F1FEB19226204086004D26C5 /* NumberCharacter.m in Sources */,
 				F174755B261DAF3B006526F2 /* Calculator.m in Sources */,
+				F1FEB18C26204026004D26C5 /* OperandCharacter.m in Sources */,
 				F174754E261D85DD006526F2 /* ButtonCollectionViewCell.m in Sources */,
 				F174748E261B068B006526F2 /* main.m in Sources */,
+				F1FEB1B726204A65004D26C5 /* DeleteButtonOperation.m in Sources */,
 				F1747480261B0688006526F2 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
